@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tab Volume Controller</title>
+    <style>
+        body { width: 350px; padding: 20px; background: linear-gradient(135deg, #141E30, #243B55); color: white; font-family: "Poppins", sans-serif; border-radius: 12px; box-shadow: 0px 5px 15px rgba(0,0,0,0.4); }
+        h3 { text-align: center; font-size: 20px; margin-bottom: 15px; letter-spacing: 1px; }
+        .tab-item { display: flex; align-items: center; justify-content: space-between; padding: 10px; background: rgba(255,255,255,0.15); border-radius: 10px; margin-bottom: 12px; transition: all 0.3s ease-in-out; }
+        .tab-item:hover { background: rgba(255,255,255,0.3); transform: scale(1.02); }
+        .tab-icon { width: 24px; height: 24px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        .volume-slider { flex-grow: 1; margin: 0 12px; }
+        .mute-btn { background: transparent; border: none; cursor: pointer; transition: transform 0.2s ease; }
+        .mute-btn:hover { transform: scale(1.1); }
+        .mute-icon { width: 22px; height: 22px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 14px; }
+        .footer a { color: #FFD700; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h3>Tab Volume Controller</h3>
+    <div id="tabList"></div>
+    <div class="footer">Follow me on Instagram: <a href="https://www.instagram.com/pardhivsai_21" target="_blank">@pardhivsai_21</a></div>
+    <script src="popup.js"></script>
+</body>
+</html>
